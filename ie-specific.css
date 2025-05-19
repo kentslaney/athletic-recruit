@@ -1,0 +1,9 @@
+.topcontainer {
+	clip: rect(0, auto, auto, 0);
+}
+.xcside, .tfside {
+	height: 1px;
+}
+.xcside div, .tfside div {
+	position: relative;
+}
