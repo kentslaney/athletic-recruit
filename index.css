@@ -27,7 +27,7 @@ body {
 }
 .topimg {
 	height: 100vh;
-	position: fixed;
+	position: absolute;
 	width: 100%;
 	top: 0px;
 	margin-top: 0px;

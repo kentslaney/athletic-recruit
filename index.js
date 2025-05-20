@@ -11,12 +11,12 @@
 				document.body.classList.add('bottomside')
 			}
 		}else{
-			topimg.style.marginTop=-0.25*window.pageYOffset
+			topimg.style.marginTop=0.75*window.pageYOffset
 		}
 		if(fs&&!--fs) document.body.classList.remove('fixside')
 		if(bs&&!--bs) document.body.classList.remove('bottomside')
 	})
-	/** /window.onscroll=scroll
+	/**/window.addEventListener("scroll", scroll, { passive: true })
 	/*/window.setInterval(scroll,10)/**/
 	var showcredits=(function(e){
 			e.preventDefault();
